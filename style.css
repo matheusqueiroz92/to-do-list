@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(234, 237, 240);
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.tarefas-header {
+    text-align: center;
+    background-color: rgb(246, 247, 248);
+    border: 1px solid rgb(214, 217, 220);
+    border-radius: 10px;
+    width: 80%;
+    margin: 40px 0;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarefas-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+#texto-tarefa {
+    height: 22px;
+}
+
+#label-tarefa {
+    font-size: 15px;
+}
+
+#lista-tarefas {
+    margin-top: 20px;
+    list-style-position: inside;
+    text-align: justify;
+    margin-left: 320px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
